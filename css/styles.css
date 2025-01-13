@@ -9,6 +9,25 @@
     font-weight: bold;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vw;
+    height: 100vh;
+}
+
+.reference {
+    color: white;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
 .hero-image {
     width: 30vw;
     height: 100vh;
