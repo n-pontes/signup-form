@@ -9,6 +9,15 @@
     font-weight: bold;
 }
 
+.hero-image {
+    width: 30vw;
+    height: 100vh;
+    background-image: url("../images/sidebarimage.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 .logoBg {
     background-color: rgb(0 0 0 / 0.5);
     display: flex;
