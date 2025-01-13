@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: 'Norse-Bold';
     src: url(../font/Norse-Bold.otf);
@@ -9,11 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
+}
+
+.logo {
+    height: 50%;
 }
 
 .odinSlang {
     font-family: 'Norse-Bold';
-    height: 100%;
+    font-size: 4rem;
+    color: white;
 }
