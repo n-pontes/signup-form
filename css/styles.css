@@ -4,6 +4,10 @@
     font-weight: bold;
 }
 
-.logoFont {
+.logoBg {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+.odinSlang {
     font-family: 'Norse-Bold';
 }
