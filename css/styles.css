@@ -1,5 +1,9 @@
 @font-face {
-    font-family: Norse-Bold;
+    font-family: 'Norse-Bold';
     src: url(../font/Norse-Bold.otf);
     font-weight: bold;
+}
+
+.logoFont {
+    font-family: 'Norse-Bold';
 }
