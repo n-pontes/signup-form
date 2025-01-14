@@ -15,6 +15,12 @@
     height: 100vh;
 }
 
+.formInfo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.30rem;
+}
+
 .reference {
     color: white;
     width: 30vw;
