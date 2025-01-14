@@ -53,16 +53,21 @@ legend {
     font-weight: bold;
     font-size: 1.30rem;
     margin-bottom: 2%;
+    color: #2c2c2c;
 }
 
 .formFlex {
     width: 70%;
     height: 30vh;
+    margin-top: 3%;
+    margin-bottom: -5%;
 }
 
 form {
     display: flex;
     gap: 4rem;
+    font-size: 0.8rem;
+    color: #2c2c2c;
 }
 
 .reference {
@@ -113,4 +118,25 @@ a {
     font-family: 'Norse-Bold';
     font-size: 4rem;
     color: white;
+}
+
+input {
+    width: 100%; 
+    margin-bottom: 1rem; /* Adds spacing between fields */
+    border: 1px solid #ccc; /* Soft border */
+    background-color: rgb(253, 252, 252);
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1.2rem;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+button {
+    background-color: #3a6e47;
+    border-radius: 9px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 12px 27px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
