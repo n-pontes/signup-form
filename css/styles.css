@@ -18,10 +18,19 @@ body {
     padding-left: 4%;
 }
 
+.projectContainer, .hero-image, .right-sidebar, .formFlex {
+    border: 1px solid red;
+}
+
+
 .projectContainer {
     display: flex;
     width: 100%;
     height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+
 }
 
 .right-sidebar {
@@ -41,6 +50,14 @@ body {
     width: 70%;
     height: 15vh;
 }
+
+.hero-image {
+    width: 30%; /* Adjust if needed */
+}
+.right-sidebar {
+    width: 70%; /* Adjust to match */
+}
+
 
 .formContainer {
     margin-top: 0;
