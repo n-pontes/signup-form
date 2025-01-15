@@ -155,8 +155,11 @@ a {
 }
 
 input:focus {
+    outline: none; /* Removes the default browser outline */
     border-color: var(--input-focus-color);
     box-shadow: var(--input-focus-box-shadow);
+    background-color: var(--input-bg-color);
+    color: var(--form-font-color);
 }
 
 input {
@@ -167,7 +170,7 @@ input {
     background-color: var(--input-bg-color);
     border-radius: 5px;
     font-size: 1.2rem;
-    transition: all 0.3s ease; 
+    transition: corder-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
 input[type=password]:invalid {
