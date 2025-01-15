@@ -29,19 +29,19 @@
                         <div class="formFlex">
                                     <div class="form-left">
                                         <label for="first_name">FIRST NAME</label><br>
-                                        <input type="text" id="first_name" name="first_name" minlength="3" required><br>
+                                        <input type="text" id="first_name" name="first_name" minlength="3" maxlength="20" required><br>
                                         <label for="email">EMAIL</label><br>
                                         <input type="email" id="email" name="email" required><br>
                                         <label for="password">PASSWORD</label><br>
-                                        <input type="password" id="password" name="password" required><br>
+                                        <input type="password" id="password" name="password" maxlength="20" minlength="8" required><br>
                                     </div>
                                     <div class="form-right">
                                         <label for="last_name">LAST NAME</label><br>
-                                        <input type="text" id="last_name" name="last_name" required><br>
+                                        <input type="text" id="last_name" name="last_name" minlength="3" maxlength="20" required><br>
                                         <label for="phone">PHONE NUMBER</label><br>
-                                        <input type="number" id="phone" name="phone" required><br>
-                                        <label for="password_confirm">LAST NAME</label><br>
-                                        <input type="password" id="password_confirm" name="password_confirm" required><br>
+                                        <input type="text" id="phone" name="phone" pattern="\d{9,13}" title="Phone number must be between 9 and 13 digits" required><br>
+                                        <label for="password_confirm">CONFIRM PASSWORD</label><br>
+                                        <input type="password" id="password_confirm" name="password_confirm" minlength="8" maxlength="20" required><br>
                                     </div>
                             </div>
                             <div class="registration">
