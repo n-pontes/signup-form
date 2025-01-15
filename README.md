@@ -35,3 +35,26 @@ This project focused on creating a responsive and accessible sign-up form. The f
 ## What is the Sign-Up Form Project?
 
 The Sign-Up Form project demonstrates how to design and implement an accessible and user-friendly registration form. It highlights the importance of proper HTML structure, CSS styling, and interactive elements to create forms that meet both functional and aesthetic requirements. This project serves as a foundational step in mastering web development skills related to user input and form handling.
+
+---------------------------
+
+### Installation on Linux  
+
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/username/repository-name.git
+   cd repository-name
+   ```
+
+2. **Install Dependencies (if needed):**  
+   ```bash
+   npm install
+   ```
+
+3. **Run the Project:**  
+   ```bash
+   npm start
+   # Or open index.html directly in your browser
+   xdg-open index.html
+   ```
+
