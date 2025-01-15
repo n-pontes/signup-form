@@ -13,6 +13,8 @@
     --logo-bg: rgb(0 0 0 / 0.5);
     --input-border: #E5E7EB; 
     --input-bg-color: rgb(253, 252, 252);
+    --input-focus-color: rgb(99, 168, 248);
+    --input-focus-box-shadow: 2px 4px 15px 4px rgba(0,0,0,0.16);
     --button-bg-color: #596D48;
     --font-Name: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -153,8 +155,8 @@ a {
 }
 
 input:focus {
-    border-color: blue;
-    box-shadow: 2px 4px 15px 4px rgba(0,0,0,0.16);
+    border-color: var(--input-focus-color);
+    box-shadow: var(--input-focus-box-shadow);
 }
 
 input {
