@@ -4,6 +4,10 @@
     box-sizing: border;
 }
 
+:root {
+    --main-bg-color: rgb(245, 245, 245);
+}
+
 @font-face {
     font-family: 'Norse-Bold';
     src: url(../font/Norse-Bold.otf);
