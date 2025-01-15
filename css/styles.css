@@ -14,6 +14,7 @@
     --input-border: #ccc; 
     --input-bg-color: rgb(253, 252, 252);
     --button-bg-color: #718d74;
+    --font-Name: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
@@ -176,4 +177,10 @@ button {
     color: var(--form-bg-container);
     font-weight: bold;
     box-shadow: var(--form-box-shadow);
+}
+
+.login_link {
+    color: var(--button-bg-color);
+    font-weight: bold;
+    font-family: var(--font-Name);
 }
