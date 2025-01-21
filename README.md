@@ -1,4 +1,4 @@
-# Project: Etch-A-Sketch
+# Project: Sign-up Form
 
 Implementation of a Sign-Up Form for The Odin Project curriculum.
 
